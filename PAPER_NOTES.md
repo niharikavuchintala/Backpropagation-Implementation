@@ -13,7 +13,7 @@ I have to build a basic feed-forward MLP from scratch. Since we can’t just cal
 * **Backward pass:** *: $(y - d)$
     * Sigmoid derivative is: $y(1 - y)$
     * Apply the chain rule to push these gradients back to the hidden layer weights.
-* **Weight updates:** Standard gradient descent, but the paper uses a momentum term (they call it $lpha$) to speed up convergence.
+* **Weight updates:** Standard gradient descent, but the paper uses a momentum term to speed up convergence.
 
 ### 3. Dataset, Metrics, and Baseline
 * **Dataset:** I'm going with the "Symmetry Task" from Figure 1.
