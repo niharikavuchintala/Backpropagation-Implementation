@@ -1,6 +1,6 @@
 # TASK-3-Paper-Code-Research-Implementation-Challenge
 
-# Rumelhart 1986: Backpropagation Implementation
+# Backpropagation Implementation
 
 This readme contains an implementation of the Multi Layer Observation and backpropagation algorithm as described in "Learning representations by back-propagating errors" (Rumelhart, Hinton, & Williams, 1986).
 
