@@ -1,5 +1,3 @@
-# TASK-3
-
 # Backpropagation Implementation
 
 This readme contains an implementation of the Multi Layer Observation and backpropagation algorithm as described in "Learning representations by back-propagating errors" (Rumelhart, Hinton, & Williams, 1986).
