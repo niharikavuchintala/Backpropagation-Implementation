@@ -7,7 +7,7 @@ This readme contains an implementation of the Multi Layer Observation and backpr
 ## Overview
 This project tackles the **Symmetry Task** outlined in the paper. The network takes a 6-bit binary array and learns to classify whether the array is symmetrical around its center. 
 
-* **Note:** This implementation builds the forward pass, backward pass, and weight updates completely from scratch using standard Python/PyTorch tensors, without relying on `torch.autograd`.
+* **Note:** This implementation builds the forward pass, backward pass, and weight updates completely from scratch using standard Python/PyTorch tensors, without leaning on `torch.autograd`.
 
 ## Dependencies
 * Python 3.8+
