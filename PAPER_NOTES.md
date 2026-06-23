@@ -1,7 +1,7 @@
 # Paper Notes: Backpropagation
 
 ### 1. What's the central claim?
-The main argument here is that the "back-propagation" method gives us a way to train hidden layers in neural nets finally. Before this, simple observations could not solve complex, non-linear problems because no one knew how to update the numbers of hidden nodes (they could not learn "internal representations"). The network can actually learn what features to look for and solve these harder problems by using the chain rule to rectify errors from the output layer, as said by the authors.
+The main argument here is that the "back-propagation" method gives us a way to train hidden layers in neural nets finally. Before this, simple observations could not solve complex, non-linear problems because no one knew how to update the numbers of hidden nodes. The network can actually learn what features to look for and solve these harder problems by using the chain rule to rectify errors from the output layer, as said by the authors.
 
 ### 2. What needs to be implemented?
 I have to build a basic feed forward MLP from scratch. Since we can’t just call `loss.backward()` in PyTorch for this problem, the key thing to get down are the equations for manually computing the forward pass and the backpropagation.
@@ -13,7 +13,7 @@ I have to build a basic feed forward MLP from scratch. Since we can’t just cal
 * **Backward pass:** $(y - d)$
     * Sigmoid derivative is: $y(1 - y)$
     * Apply the chain rule to push these gradients back to the hidden layer weights.
-* **Weight updates:** Standard gradient descent, but the paper uses a momentum term to speed up convergence.
+* **Weight updates:** Standard gradient descent.
 
 ### 3. Dataset, Metrics, and Baseline
 * **Dataset:** I'm going with the "Symmetry Task" from Figure 1.
