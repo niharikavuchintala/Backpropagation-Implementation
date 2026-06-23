@@ -16,10 +16,10 @@ This project tackles the **Symmetry Task** outlined in the paper. The network ta
 
 ## How to Run
 To train the network and view the evaluation logs, run:
-`python src/network.py`
+`python src/code.py`
 
 ## Expected Results
-When running the script, the network trains for `[Insert Number]` sweeps. 
-* **Initial Error:** `[Insert Starting Error]`
-* **Final Error:** `[Insert Final Error]`
+When running the script, the network trains for 30000 sweeps. 
+* **Initial Error:** approx 0.25
+* **Final Error:** 0.0000
 The final output activations for symmetrical inputs consistently score above 0.8, and asymmetrical inputs score below 0.2
